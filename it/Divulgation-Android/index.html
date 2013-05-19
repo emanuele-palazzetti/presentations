@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Tinker Garage</title>
+
+		<meta name="description" content="Tinker Garage template">
+		<meta name="author" content="Tinker Garage">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/reveal.min.css">
+
+		<!-- Theme selector -->
+		<link rel="stylesheet" href="assets/css/theme/tinker.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- PDF print stylesheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="assets/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<script type="text/template">
+						![Android workshop](/assets/img/android.png)<br><br>
+						Speaker: Emanuele Palazzetti<br>
+						<small>- 7 aprile 2013 -</small>
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## Tinker Garage
+						![Tinker Garage logo](/assets/img/tinker_garage.png)
+
+						* Web site: tinkergarage.it
+						* Twitter: @tinkergag
+						* Mailing list: tinkergarage@googlegroups.com
+					</script>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Mobile (r)evolution
+
+							* I device mobile non sono più dei "semplici telefoni". Ormai sono SMART!
+							* Quasi tutti i recenti smartphones dispongono di wifi, geolocalizzazione, browser, camera, lettori multimediali ecc...<br><br>
+							
+							## Le principali piattaforme:
+
+							* iOS (Apple)
+							* Windows Phone (Microsoft)
+							* Bada (Samsung), Symbian (Nokia), etc ..
+							* **Android (Google)**
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Il cloud nel mondo mobile
+
+							* Il cloud può essere visto come una infrastruttura invisibile in grado di offrire svariati servizi (SaaS)
+							* Alcuni servizi utilizzati negli smartphone sono cloud based (ex: email, storaging, ecc...)
+							* I dati collocati nel cloud possono essere interrogati ovunque e da qualsiasi dispositivo
+							* La potenza computazionale offerta dal cloud (es: Amazon EC2) consente agli smartphone di usufruire di alcune funzioni non utilizzabili diversamente
+						</script>
+						<script type="text/template">
+							## Perché sviluppare in una piattaforma mobile?
+
+							* Il numero di dispositivi attivati si aggira sopra al miliardo ed è in continua crescita
+							* Si stima che molte persone preferiranno utilizzare uno smartphone piuttosto che un computer desktop o un notebook per svolgere attività semplici (es: email, social activities, ecc...)
+							* Il telefono è drasticamente cambiato come sono cambiate le esigenze degli utilizzatori (es: social activities)
+							* Mercato?
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							![Android logo](/assets/img/android_logo.png)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Cosa è Android?
+							
+							* E' un sistema operativo sviluppato da Google Inc. (ma non all'inizio)
+							* Installato su una vasta gamma di dispositivi (smartphone ma anche televisori, telefoni VoIP ecc...)
+							* Basato sul kernel linux 2.6 e 3.x dalla versione ICS 4.0
+							* E' composto da un core di sistema al quale sono agganciate delle componenti (app) per svolgere delle attività (es: telefono o browser)
+							* Quasi tutte le app principali possono essere rimpiazzate con delle applicazioni personalizzate
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Cosa NON è Android?
+							
+							* Android **non** è Linux
+							* Non ha un supporto nativo per il window manager
+							* Non ha il set completo di utilities previste dai sistemi Linux
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Vendor
+
+							* Sono presenti molti modelli Android sviluppati da diversi vendor di dispositivi (Samsung, LG, HTC, Sony, ecc...)
+							* E' disponibile la serie Nexus (Galaxy Nexus, Nexus 4, Nexus 7, Nexus 10)
+							* Sono dispositivi direttamente supportati da Google
+							* Aggiornamenti ogni volta che esce una nuova versione di Android
+							* Performance superiori a parità di hardware
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							# Android emulation
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Android x86 porting
+
+							* Può essere eseguito come macchina virtuale o anche installato in un dispositivo
+							<br><br>
+							<a href="http://www.android-x86.org" target="_blank">Link al progetto</a>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Android AVD
+
+							* Fa parte delle SDK di Android
+							* Deve essere utilizzato unicamente per lo sviluppo
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							# Ed ora qualche applicazione!
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Android distribution
+							<a href="http://developer.android.com/about/dashboards/index.html" target="_blank">Grafico</a>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Tempo di workshop!
+							<small>(Con qualche consiglio iniziale)</small>
+						</script>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<!-- Reveal.js configuration -->
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'default',
+
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        			{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>

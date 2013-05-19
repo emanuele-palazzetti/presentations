@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Tinker Garage</title>
+
+		<meta name="description" content="Tinker Garage template">
+		<meta name="author" content="Tinker Garage">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/reveal.min.css">
+
+		<!-- Theme selector -->
+		<link rel="stylesheet" href="assets/css/theme/tinker.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- PDF print stylesheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="assets/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<script type="text/template">
+						![Android workshop](/assets/img/android.png)<br>
+						Università degli studi di Perugia<br><br>
+						Speaker: Emanuele Palazzetti<br>
+						<small>- 7 aprile 2013 -</small>
+					</script>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Do you know what GDG is?
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Google Developer Group - Perugia
+							![GDG Perugia logo](/assets/img/GDG_Perugia.png)
+
+							* Web site: perugia.gtugs.org
+							* Twitter: @GDGPerugia
+							* Mailing list: gdg-perugia@googlegroups.com
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Tinker Garage
+							![Tinker Garage logo](/assets/img/tinker_garage.png)
+
+							* Web site: tinkergarage.it
+							* Twitter: @tinkergag
+							* Mailing list: tinkergarage@googlegroups.com
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Emanuele Palazzetti
+
+							* Web site: emanuelepalazzetti.eu
+							* Twitter: @palazzem
+							* GitHub: github.com/emanuele-palazzetti
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Android University Hackathon
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Qualche tips:
+							* Brainstorming
+							* Progettazione
+							* Implementazione collaborativa (VCS!)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Altro tip:
+							<a href="https://developers.google.com/events/io/sessions" target="_blank">Google I/O 2013</a>
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Workshop time!
+							<small>(#Auh!)</small>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Obiettivi:
+							* Applicazione in grado di connettersi a delle API REST (ma non solo)
+							* Fetch dei dati presenti nel cloud
+							* Design pattern flessibile per il futuro
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Backend:
+							* <a href="https://students-exam.herokuapp.com/admin/exams" target="_blank">Django app!</a>
+							* API in formato JSON ({"detail": "Hello world!"})
+							* <a href="https://students-exam.herokuapp.com/api/exam/?format=api" target="_blank">API explorer</a>
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Qualche design pattern:
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							![Wrong design pattern](/assets/img/wrong_pattern.png)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# Wrong!
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							![Good design pattern](/assets/img/good_pattern.png)
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Android distribution
+							<a href="http://developer.android.com/about/dashboards/index.html" target="_blank">Grafico</a>
+						</script>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<!-- Reveal.js configuration -->
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'default',
+
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        			{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>

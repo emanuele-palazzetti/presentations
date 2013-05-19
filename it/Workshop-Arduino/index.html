@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Tinker Garage</title>
+
+		<meta name="description" content="Tinker Garage template">
+		<meta name="author" content="Tinker Garage">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/reveal.min.css">
+
+		<!-- Theme selector -->
+		<link rel="stylesheet" href="assets/css/theme/tinker.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- PDF print stylesheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="assets/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<script type="text/template">
+						## Arduino Workshop
+						![Arduino workshop](/assets/img/arduino.png)
+
+						Speaker: Emanuele Palazzetti
+
+						<small>- 20 aprile 2013 -</small>
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						![Try at home](/assets/img/try_at_home.png)
+						
+						## <del>Don't</del> try this at home!
+					</script>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Phisical Computing
+							* Costruire dei sistemi fisici interattivi composti da software e da hardware in grado di percepire e rispondere al mondo "analogico"
+
+							* Siamo sommersi da questi dispositivi
+
+							* <strong>Microcontrollori</strong> dotati di <strong>sensori</strong> per "percepire" le attività che lo circondano per poi eseguire delle azioni mediante degli <strong>attuatori</strong>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Open hardware
+							* Open Hardware License
+
+							* Design dell'hardware (disegni meccanici, schemi, layout circuiti integrati, ecc), in aggiunto al software che pilota l'hardware, sono rilasciati con l'approccio <strong>FOSS</strong> (Free and Open Source Software)
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Arduino
+							* Sviluppato in Italia dal team Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino e David Mellis.
+							* Framework open-source per la creazione rapida di prototipi
+							* Licenza Creative Commons Attribution-ShareAlike 3.0 per la documentazione
+
+							<br><br><strong>E' un framework creativo</strong>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Arduino UNO
+							![Arduino UNO](/assets/img/ArduinoUno_R3_Front.png)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Cosa è Arduino?
+
+							...ma prima...
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Cosa NON è Arduino?
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Qualche confronto
+							![Confronti](/assets/img/comparison.png)
+
+							* Arduino UNO
+							* BeagleBone
+							* Raspberry Pi
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Arduino UNO
+							
+							* Ottimo per chi si affaccia al mondo dei makers
+							* Ricchissima community che offre molti tutorial e workshop
+							* Gran mercato di dispositivi esterni con una facile integrazione
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## BeagleBone
+							
+							* E' a tutti gli effetti un computer in grado di eseguire distribuzioni quali Android o Linux
+							* Ha un'elevata potenza di calcolo in confronto ai concorrenti (es: applicazioni OpenCV)
+							* Dispone di porte GPIO (digitali ed analogiche) per poter controllare sensori e svariati dispositivi
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Raspberry Pi
+							
+							* E' un computer a basso costo
+							* Dispone di porte GPIO digitali
+							* Molto usato per progetti ed applicazioni dotati di interfaccia grafica
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Confronto tra le piattaforme
+							![Confronti](/assets/img/comparison_table.png)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Migliori campi di applicazione
+							
+							* <strong>Arduino</strong>: interfacciamento sensori, hardware esterno, applicazioni a basso consumo, prototipizzazione rapida
+							* <strong>BeagleBone</strong>: interfacciamento sensori, hardware esterno, applicazioni che richiedono maggiore capacità di calcolo, accesso alla rete
+							* <strong>Raspberry Pi</strong>: applicazioni con interfaccia grafica, semplice interfacciamento a dispositivi esterni, accesso alla rete
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Arduino: funzionamento
+							
+							![Arduino schema](/assets/img/arduino_schema.png)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Arduino: shields
+							
+							![Ethernet shield](/assets/img/ethernet_shield.png)
+							![GSM shield](/assets/img/gsm_shield.png)
+						</script>
+					</section>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## Strumentazione ?
+						
+						![Toolbox](/assets/img/toolcase.png)
+					</script>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							### Primo esercizio: accensione di un LED
+							<small>(nel modo sbagliato)</small>
+							
+							Ingredienti:
+
+							* LED
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Perché sbagliato ?
+
+							* Il cambiamento di stato di alcuni dispositivi è determinato dal potenziale elettrico (V)
+							* La quantità di corrente che attraversa un dispositivo è determinato dall'intensità elettrica (I)
+							* Essi sono in relazione secondo la legge di OHM (V = IR)
+							* R è la resistenza data al flusso di intensità elettrica e si misura in OHM
+							* Se la corrente non viene limitata i dispositivi vengono danneggiati
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Calcolo delle resistenze
+							<small>(per non riacquistare inutilmente i materiali)</small>
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							### Secondo esercizio: accensione di un LED
+							<small>(nel modo giusto)</small>
+							
+							Ingredienti:
+
+							* Breadboard
+							* LED
+							* Resistenza 330 OHM
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Breadboard
+							![Breadboard](/assets/img/breadboard.png)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Breadboard: connessioni
+							![Breadboard](/assets/img/breadboard.gif)
+						</script>
+					</section>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						### Terzo esercizio: accensione di un LED con un pulsante
+						
+						Ingredienti:
+
+						* Breadboard
+						* LED
+						* Switch
+						* 1 x Resistenza 330 OHM
+						* 1 x Resistenza 10 KOHM
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						### Quarto esercizio: accensione di più LED
+						
+						Ingredienti:
+
+						* Breadboard
+						* 2 x LED rossi
+						* 1 x LED verde
+						* Switch
+						* 3 x Resistenza 330 OHM
+						* 1 x Resistenza 10 KOHM
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<!-- Reveal.js configuration -->
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'default',
+
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        			{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
