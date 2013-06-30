@@ -1,0 +1,12 @@
+{
+  "name": "EuroPython2013",
+  "version": "0.1.0",
+  "dependencies": {
+    "reveal.js": "~2.4.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
