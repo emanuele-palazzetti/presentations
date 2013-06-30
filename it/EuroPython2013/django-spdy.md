@@ -116,10 +116,10 @@ Emanuele Palazzetti :: evonove.it
 
 ### Riassunto degli ingredienti
 
-* Django 1.4.5
+* Django
 * django-jython
-* Jython 2.5.3 stable
-* Jetty 8.1.10.v20130312 stable
+* Jython
+* Jetty
 * SPDY/3
 
 
