@@ -2,7 +2,8 @@
   "name": "EuroPython2013",
   "version": "0.1.0",
   "dependencies": {
-    "reveal.js": "~2.4.0"
+    "reveal.js": "2.4.0",
+    "font-awesome": "3.2.1"
   },
   "ignore": [
     "**/.*",
