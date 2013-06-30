@@ -1,3 +1,7 @@
+body {
+	text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
+}
+
 #logo {
 	position: absolute;
 	padding: 10px;
@@ -11,10 +15,10 @@
 	padding: 0;
 	line-height: 4px;
 	font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
 	font-size: 24px;
 }
 
 .title-name {
 	font-size: 16px;	
+	font-style: italic;
 }
