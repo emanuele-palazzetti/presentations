@@ -86,19 +86,7 @@ Emanuele Palazzetti :: evonove.it
 	}
 
 
-#### Django-jython
-
-	DATABASES = {
-		'default': {
-			'ENGINE': 'django.db.backends.postgresql_psycopg2',
-			'NAME': 'mydatabase',
-			'USER': 'foo',
-			'PASSWORD': 'bar',
-			'HOST': 'db.example.com',
-			'PORT': '',
-		}
-	}
--
+#### Configurazione con `django-jython`
 
 	DATABASES = {
 		'default': {
