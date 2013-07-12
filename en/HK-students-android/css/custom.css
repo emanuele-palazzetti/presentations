@@ -1,0 +1,28 @@
+body {
+	text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
+}
+
+#logo {
+	position: absolute;
+	padding: 10px;
+}
+
+#title {
+	position: absolute;
+	left: 120px;
+	width: 99%;
+	margin: 0;
+	padding: 0;
+	line-height: 4px;
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 24px;
+}
+
+.title-name {
+	font-size: 16px;	
+	font-style: italic;
+}
+
+.reveal {
+	top: 40px;
+}
