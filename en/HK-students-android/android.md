@@ -172,6 +172,8 @@ http://developer.android.com/about/dashboards/index.html
 
 ### Workshop time!
 
+https://www.tofu.st/palazzem/Android_stuff/logo_unipg.png
+
 
 
 Emanuele Palazzetti :: Google Developer Group
