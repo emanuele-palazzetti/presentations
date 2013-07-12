@@ -151,6 +151,9 @@ Another pattern...
 Brilliant! Why not use a library for that?!
 
 
+Remember: Design patterns are really important!
+
+
 ### Volley library
 
 * Used by Google inside Play Store
