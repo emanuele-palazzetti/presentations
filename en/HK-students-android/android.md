@@ -138,7 +138,7 @@ Another pattern...
 
 ![Foo pattern](/img/foo_pattern.gif)
 
-...another one...
+...another one (a foo pattern)...
 
 
 ![Jackie](/img/jackie_chan.png)
@@ -173,6 +173,7 @@ http://developer.android.com/about/dashboards/index.html
 ### Workshop time!
 
 https://www.tofu.st/palazzem/Android_stuff/logo_unipg.png
+https://www.tofu.st/palazzem/Android_stuff/volley.zip
 
 
 
