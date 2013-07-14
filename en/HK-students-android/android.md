@@ -183,4 +183,4 @@ Emanuele Palazzetti :: Google Developer Group
 
 <f class="icon-twitter"></f> @palazzem
 <f class="icon-globe"></f> evonove.it/authors/palazzem
-<f class="icon-github"></f> github.com/emanuele-palazzetti
+<f class="icon-github"></f> github.com/emanuele-palazzetti/HungryDroid
