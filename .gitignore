@@ -1,2 +1,5 @@
 # Reveal.js and support libraries
 assets/
+
+# IDE
+.idea/
